@@ -122,7 +122,7 @@ _logLanguageRegex = {
         'armorRepairedOut': "\(combat\) <.*?><b>([0-9]+).*>リモートアーマーリペアを<",
         'hullRepairedOut': "\(combat\) <.*?><b>([0-9]+).*>リモート船体リペアを<",
         'shieldBoostedOut': "\(combat\) <.*?><b>([0-9]+).*>リモートシールドブーストを<",
-        'armorRepairedIn': "\(combat\) <.*?><b>([0-9]+).*> remote armor repaired by <",
+        'armorRepairedIn': "\(combat\) <.*?><b>([0-9]+).*>リモートアーマーリペアを<.*から受けました",
         'hullRepairedIn': "\(combat\) <.*?><b>([0-9]+).*> remote hull repaired by <",
         'shieldBoostedIn': "\(combat\) <.*?><b>([0-9]+).*> remote shield boosted by <",
         'capTransferedOut': "\(combat\) <.*?><b>([0-9]+).*> remote capacitor transmitted to <",
