@@ -128,7 +128,7 @@ _logLanguageRegex = {
         'capTransferedOut': "\(combat\) <.*?><b>([0-9]+).*>リモートキャパシタが<.*に転送されました",
         'capNeutralizedOut': "\(combat\) <.*?ff7fffff><b>([0-9]+).*> エネルギーニュートラライズ 対象:<",
         'nosRecieved': "\(combat\) <.*?><b>\+([0-9]+).*> エネルギードレイン 対象:<",
-        'capTransferedIn': "\(combat\) <.*?><b>([0-9]+).*> remote capacitor transmitted by <",
+        'capTransferedIn': "\(combat\) <.*?><b>([0-9]+).*>リモートキャパシタを<.*で受けました",
         'capNeutralizedIn': "\(combat\) <.*?ffe57f7f><b>([0-9]+).*>のエネルギーが解放されました<",
         'nosTaken': "\(combat\) <.*?><b>\-([0-9]+).*> エネルギードレイン 攻撃者:<",
         'mined': "\(mining\) .*>([0-9]+).*ユニットの.*>(.+)を採掘しました"
