@@ -119,7 +119,7 @@ _logLanguageRegex = {
         'pilotAndWeapon': '(?:.*ffffffff>(?:<localized .*?>)?(?P<default_pilot>[^\(\)<>]*)(?:\[.*\((?:<localized .*?>)?(?P<default_ship>.*)\)<|<)/b.*> \-(?: (?:<localized .*?>)?(?P<default_weapon>.*?)(?: \-|<)|.*))',
         'damageOut': "\(combat\) <color=0xff00ffff><b>([0-9]+).*>から<",
         'damageIn': "\(combat\) <color=0xffcc0000><b>([0-9]+).*>から<",
-        'armorRepairedOut': "\(combat\) <.*?><b>([0-9]+).*>リモートアーマーリペアを<",
+        'armorRepairedOut': "\(combat\) <.*?><b>([0-9]+).*>リモートアーマーリペアを<.*に与えました",
         'hullRepairedOut': "\(combat\) <.*?><b>([0-9]+).*>リモート船体リペアを<",
         'shieldBoostedOut': "\(combat\) <.*?><b>([0-9]+).*>リモートシールドブーストを<",
         'armorRepairedIn': "\(combat\) <.*?><b>([0-9]+).*>リモートアーマーリペアを<.*から受けました",
