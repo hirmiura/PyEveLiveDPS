@@ -131,7 +131,7 @@ _logLanguageRegex = {
         'capTransferedIn': "\(combat\) <.*?><b>([0-9]+).*> remote capacitor transmitted by <",
         'capNeutralizedIn': "\(combat\) <.*?ffe57f7f><b>([0-9]+).*>のエネルギーが解放されました<",
         'nosTaken': "\(combat\) <.*?><b>\-([0-9]+).*> エネルギードレイン 攻撃者:<",
-        'mined': "\(mining\) .*? <.*?><.*?>([0-9]+).*(?:<localized .*?>)?(.+)\*<"
+        'mined': "\(mining\) .*>([0-9]+).*ユニットの.*>(.+)を採掘しました"
     },
     'chinese':{
         'character': "(?<=收听者: ).*",
